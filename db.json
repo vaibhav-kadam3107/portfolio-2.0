@@ -1,0 +1,56 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Project 1",
+      "description": "Description of project 1"
+    },
+    {
+      "id": "2",
+      "title": "Project 2",
+      "description": "Description of project 2"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "1",
+      "title": "Recommendation 1",
+      "text": "Text for recommendation 1"
+    },
+    {
+      "id": "2",
+      "title": "Recommendation 2",
+      "text": "Text for recommendation 2"
+    }
+  ],
+  "skills": [
+    {
+      "id": "1",
+      "name": "Skill 1"
+    },
+    {
+      "id": "2",
+      "name": "Skill 2"
+    },
+    {
+      "id": "bbe9",
+      "name": "Figma"
+    },
+    {
+      "id": "585f",
+      "name": "React"
+    },
+    {
+      "id": "ea8e",
+      "name": "Sex"
+    },
+    {
+      "id": "734e",
+      "name": "Gand"
+    },
+    {
+      "id": "a85a",
+      "name": "Randi Rona"
+    }
+  ]
+}
