@@ -13,7 +13,7 @@ This is a personal portfolio project built using React and Tailwind CSS. It incl
 To get started with this project, clone the repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/vaibhav-kadam3107/portfolio-2.0.git
 cd portfolio
 npm install
 ```
