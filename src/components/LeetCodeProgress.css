@@ -1,0 +1,67 @@
+/* src/components/LeetCodeProgress.css */
+
+.leetcode-progress-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  
+  .chart-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .total-solved {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    margin-left: 20px;
+  }
+
+  .details .easy,
+  .details .medium,
+  .details .hard {
+    background-color: rgb(13,15,20);
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .details .easy,
+  .details .medium,
+  .details .hard {
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+  }
+  
+  .details .easy {
+    text-align: center;
+    font-size: 12px;
+    color: #00bcd4;
+  }
+  
+  .details .medium {
+    text-align: center;
+    font-size: 12px;
+    color: #ff9800;
+  }
+  
+  .details .hard {
+    text-align: center;
+    font-size: 12px;
+    color: #f44336;
+  }

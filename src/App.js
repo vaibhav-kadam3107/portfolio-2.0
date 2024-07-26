@@ -7,6 +7,7 @@ import Recommendations from './components/Recommendation'; // Ensure the file is
 import LeaveInfo from './components/LeaveInfo';
 import Skills from './pages/skills'; // Ensure the file is named Skills.js
 import Footer from './components/Footer';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   return (
