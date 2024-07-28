@@ -13,15 +13,24 @@
   ],
   "recommendations": [
     {
-      "id": "1",
-      "title": "Recommendation 1",
-      "text": "Text for recommendation 1"
+      "id": "976e",
+      "name": "Avinash Kadam",
+      "position": "SDE at Microsoft",
+      "text": "I had the pleasure of working closely with Aditya, and I can confidently say that he is exceptionally strong in data structures and algorithms. His participation in ICPC and inter-college competitions is a testament to his deep understanding and skill in this area.\n\nDuring his time at Veritas, Aditya worked on challenging projects where he explored open-source frameworks and delivered optimal design solutions for new VM backup services. His ability to think critically and creatively was evident in the innovative approaches he took to solve complex problems.\n"
     },
     {
-      "id": "2",
-      "title": "Recommendation 2",
-      "text": "Text for recommendation 2"
+      "id": "408e",
+      "name": "Vaibhav",
+      "position": "SDE Google ",
+      "text": "I recently had the pleasure of working with Ishika Mudgal, a Technical Recruiter at Google, on my interview process for an L4 SWE role. I was very impressed with her level of helpfulness, transparency, and dedication to providing the best possible candidate experience.\n\nIshika was always available to answer my questions and provide me with guidance throughout the interview process. She smoothly guided me on the timelines and kept me updated on my progress. She was also highly skilled at handling scheduling and managing communication between teams, SDMs, and candidates."
+    },
+    {
+      "id": "d300",
+      "name": "Rakhi",
+      "position": "Professor at Vishwakarma Institute Of Technology, Pune",
+      "text": "I highly recommend Vaibhav for any position related to AWS. I had the pleasure of working with Krishna for two years during which time he consistently demonstrated his expertise in AWS and his commitment to delivering high-quality work. Overall, I highly recommend Krishna for any role related to AWS. His technical knowledge, work ethic, and communication skills make him an invaluable asset to any team."
     }
+    
   ],
   "skills": [
     {

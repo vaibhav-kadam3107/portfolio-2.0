@@ -14,7 +14,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section id="projects" className="py-12 bg-white">
+    <section id="projects" className="relative isolate  py-12 bg-[rgb(13,15,20)]">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold mb-8">Projects</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

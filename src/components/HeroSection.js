@@ -24,7 +24,7 @@ export default function HeroSection() {
       <div className="w-10/12 md:w-11/12 max-w-[1080px] mx-auto flex flex-col lg:flex-row items-center justify-between h-[800px]">
       
         {/* Left Column */}
-        <div className="w-full lg:w-1/3 bg-gray-800 p-6 rounded-lg shadow-lg text-white h-[600px] border border-gray-700">
+        <div className="w-full lg:w-1/3 bg-gray-800 p-6 rounded-lg shadow-lg text-white h-[580px] border border-gray-700">
           <div className="flex flex-col items-center space-y-4">
             <img
               src={aboutImage}
@@ -87,7 +87,7 @@ export default function HeroSection() {
               Hello! I'm <span className="text-blue-500 font-bold">Vaibhav Kadam</span>, from the vibrant city of Pune, nestled in the heart of India. 
             </p>
             <p className="font-mullish text-sm text-white text-opacity-70 mt-4">
-              Currently in my third year of pursuing a Bachelor of Technology in Computer Science Engineering at VIT Pune. With a consistent GPA of 8.7, I am eager to contribute to the ever-evolving field of technology.
+              Currently in my Final year of pursuing a Bachelor of Technology in Computer Science Engineering at VIT Pune. With a consistent GPA of 8.75, I am eager to contribute to the ever-evolving field of technology.
             </p>
           </div>
 

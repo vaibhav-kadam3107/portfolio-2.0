@@ -12,6 +12,17 @@ export const getRecommendations = async () => {
   return response.json();
 };
 
+export const addRecommendation = async (recommendation) => {
+  const response = await fetch(`${API_URL}/recommendations`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(recommendation),
+  });
+  return response.json();
+};
+
 export const getSkills = async () => {
   const response = await fetch(`${API_URL}/skills`);
   return response.json();

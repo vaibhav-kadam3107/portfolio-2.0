@@ -14,10 +14,10 @@ function App() {
     <div className="App">
       <Navbar />
       <HeroSection />
-      <main className="container mx-auto px-4">
-        <Projects />
+      <main className="container">
         <Recommendations />
-        <LeaveInfo />
+        {/* <Projects /> */}
+        {/* <LeaveInfo /> */}
       </main>
       <Skills />
       <Footer />
