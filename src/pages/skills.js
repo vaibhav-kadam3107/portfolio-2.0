@@ -41,7 +41,7 @@ const Skills = () => {
   };
 
   return (
-    <section className="p-8">
+    <section className="p-8 bg-[rgb(13,15,20)] text-white">
       <div className="container mx-auto">
         <h2 className="text-2xl font-bold mb-4">Skills</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

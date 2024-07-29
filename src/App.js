@@ -7,6 +7,7 @@ import Recommendations from './components/Recommendation'; // Ensure the file is
 import LeaveInfo from './components/LeaveInfo';
 import Skills from './pages/skills'; // Ensure the file is named Skills.js
 import Footer from './components/Footer';
+import TechStack from './components/TechStack';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       <HeroSection />
       <main className="container">
         <Recommendations />
-        {/* <Projects /> */}
+        {/* <TechStack /> */}
+        <Projects />
         {/* <LeaveInfo /> */}
       </main>
       <Skills />

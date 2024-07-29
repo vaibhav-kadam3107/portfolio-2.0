@@ -42,7 +42,7 @@ const Recommendation = () => {
           }
         }
       });
-    }, 3000);
+    }, 4000);
 
     return () => {
       clearInterval(intervalRef.current);
@@ -56,7 +56,7 @@ const Recommendation = () => {
   };
 
   return (
-    <div className="p-4 bg-[rgb(13,15,20)] text-white pt-10 h-screen">
+    <div className="p-4 bg-[rgb(13,15,20)] text-white pt-10 h-[500]">
       <div className="p-6 rounded-lg shadow-lg text-white border border-gray-700 max-w-[1080px] mx-auto px-5">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-2xl font-bold">Recommendations</h2>

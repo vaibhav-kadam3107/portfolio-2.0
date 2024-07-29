@@ -7,7 +7,7 @@ import LeetCodeProgress from './LeetCodeProgress';
 
 export default function HeroSection() {
   return (
-    <div className="relative isolate px-6 pt-0 lg:px-8 bg-[rgb(13,15,20)] text-white">
+    <div className="relative isolate px-6 pt-10 lg:px-8 bg-[rgb(13,15,20)] text-white">
       <div
         aria-hidden="true"
         className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -19,12 +19,10 @@ export default function HeroSection() {
           }}
           className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-blue-500 to-blue-300 opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
         />
-
       </div>
-      <div className="w-10/12 md:w-11/12 max-w-[1080px] mx-auto flex flex-col lg:flex-row items-center justify-between h-[800px]">
-      
+      <div className="w-10/12 md:w-11/12 max-w-[1080px] mx-auto flex flex-col lg:flex-row items-center justify-between lg:h-[800px] h-auto pt-10">
         {/* Left Column */}
-        <div className="w-full lg:w-1/3 bg-gray-800 p-6 rounded-lg shadow-lg text-white h-[580px] border border-gray-700">
+        <div className="w-full lg:w-1/3 bg-gray-800 p-6 rounded-lg shadow-lg text-white lg:h-[580px] h-auto border border-gray-700 mb-6 lg:mb-0 lg:mr-5">
           <div className="flex flex-col items-center space-y-4">
             <img
               src={aboutImage}
@@ -33,7 +31,6 @@ export default function HeroSection() {
             />
             <h3 className="font-mullish font-bold text-lg">Vaibhav Kadam</h3>
           </div>
-
 
           <div className="flex justify-around pt-4">
             <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer" className="w-12 h-12 flex items-center justify-center bg-gray-700 rounded-full">
@@ -53,11 +50,11 @@ export default function HeroSection() {
           <hr className="border-t border-gray-700 my-4" />
 
           <div className="space-y-5 pt-5 px-5 text-2xl">
-            <div className="flex items-center space-x-4"> {/* Updated spacing */}
+            <div className="flex items-center space-x-4">
               <i className="fas fa-envelope text-gray-400"></i>
               <p className="text-sm">vaibhav.kadam21@vit.edu</p>
             </div>
-            <div className="flex items-center space-x-6"> {/* Updated spacing */}
+            <div className="flex items-center space-x-6">
               <i className="fas fa-map-marker-alt text-gray-400"></i>
               <p className="text-sm">Pune, Maharashtra, India</p>
             </div>
@@ -69,18 +66,17 @@ export default function HeroSection() {
               <i className="fas fa-graduation-cap text-gray-400"></i>
               <p className="text-sm">Current GPA: 8.75</p>
             </div>
-            <div className="flex items-center space-x-3"> {/* Updated spacing */}
+            <div className="flex items-center space-x-3">
               <i className="fas fa-school text-gray-400"></i>
               <p className="text-sm">Vishwakarma Institute of Technology, Pune</p>
             </div>
           </div>
-
         </div>
 
         {/* Right Column */}
-        <div className="w-full lg:w-2/3 grid grid-cols-2 gap-4 ml-5 lg:mt-0">
+        <div className="w-full lg:w-2/3 grid grid-cols-1 lg:grid-cols-2 gap-4">
           {/* About Section */}
-          <div className="col-span-2 lg:col-span-1 bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
+          <div className="col-span-1 bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
             <h2 className="font-mullish font-bold text-xl text-white">About</h2>
             <div className="w-6 h-1 bg-green-400 mt-1"></div>
             <p className="font-mullish text-sm text-white mt-4">
@@ -92,14 +88,14 @@ export default function HeroSection() {
           </div>
 
           {/* Add LeetCode Profile Section */}
-          <div className="col-span-2 lg:col-span-1 bg-gray-800 p-6  rounded-lg shadow-lg border border-gray-700">
+          <div className="col-span-1 bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
             <h2 className="font-mullish font-bold text-xl text-white">LeetCode Profile</h2>
             <div className="w-6 h-1 bg-green-400 mt-1"></div>
             <LeetCodeProgress />
           </div>
 
           {/* Skills Section */}
-          <div className="col-span-2 bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700 h-[300px]">
+          <div className="col-span-1 lg:col-span-2 bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700 h-auto">
             <h2 className="font-mullish font-bold text-xl text-white">Technical Skills</h2>
             <div className="w-6 h-1 bg-green-400 mt-1"></div>
             <div className="mt-4 text-white">
@@ -119,7 +115,6 @@ export default function HeroSection() {
               </div>
             </div>
           </div>
-
         </div>
       </div>
       <div
@@ -133,7 +128,6 @@ export default function HeroSection() {
           }}
           className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-blue-500 to-blue-300 opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
         />
-
       </div>
     </div>
   );
