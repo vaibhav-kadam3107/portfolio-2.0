@@ -144,12 +144,12 @@ const Projects = () => {
         </div>
 
         {/* Mobile View Adjustment */}
-        <div className="md:hidden mb-24 max-w-[1080px] mx-auto mt-10 px-4 py-6 bg-[#181c2e] rounded-md">
+        <div className="md:hidden max-w-[1080px] mx-auto mt-10 px-4 py-6 bg-[#181c2e] rounded-md">
           <p className="font-mullish text-lg text-center mb-4">
             <span className="font-bold">Check out some more projects and related work!</span>
           </p>
           <a href="https://drive.google.com/drive/folders/1_VT4dxKu1BC9-enJ6ZE2I9hJg95huyCt" target="_blank" rel="noopener noreferrer">
-            <button className="relative bg-lightBlue w-full flex items-center justify-center text-white py-[14px] px-[18px] rounded-md font-mullish font-bold hover:bg-blue-500 transition-all duration-200">
+            <button className="relative bg-blue-700 w-full flex items-center justify-center text-white py-[14px] px-[18px] rounded-md font-mullish font-bold hover:bg-blue-500 transition-all duration-200">
               Check out
               <div className="z-10 w-12 h-[60px] bg-green-400 skew-x-[20deg] absolute right-6 grid place-items-center">
                 <svg viewBox="0 0 24 24" focusable="false" className="w-[20px] h-[20px] -skew-x-[20deg]">

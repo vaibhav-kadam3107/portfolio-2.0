@@ -58,15 +58,16 @@ const Recommendation = () => {
   return (
     <div className="p-4 bg-[rgb(13,15,20)] text-white pt-10 h-[500]">
       <div className="p-6 rounded-lg shadow-lg text-white border border-gray-700 max-w-[1080px] mx-auto px-5">
-        <div className="flex justify-between items-center mb-4">
-          <h2 className="text-2xl font-bold">Recommendations</h2>
-          <button
-            className="bg-blue-500 text-white px-4 py-2 rounded-lg shadow-lg isolate"
-            onClick={() => setShowForm(true)}
-          >
-            Recommend Vaibhav
-          </button>
-        </div>
+      <div className="flex flex-col sm:flex-row justify-between items-center mb-4">
+        <h2 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-0">Recommendations</h2>
+        <button
+          className="bg-blue-500 text-white px-4 py-2 rounded-lg shadow-lg isolate"
+          onClick={() => setShowForm(true)}
+        >
+          Recommend Vaibhav
+        </button>
+      </div>
+
         <div className="">
           <h2 className="font-mullish text-xl text-white text-opacity-70">Received</h2>
           <div className="w-6 h-1 bg-green-400 mt-1"></div>
