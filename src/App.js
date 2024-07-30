@@ -8,6 +8,8 @@ import LeaveInfo from './components/LeaveInfo';
 import Skills from './pages/skills'; // Ensure the file is named Skills.js
 import Footer from './components/Footer';
 import TechStack from './components/TechStack';
+import Publications from './components/Publications'; //
+import Certifications from './components/Certifications';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
         <Projects />
         {/* <LeaveInfo /> */}
       </main>
+      <Publications />
+      <Certifications/>
       <Skills />
       <Footer />
     </div>

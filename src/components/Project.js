@@ -18,7 +18,7 @@ const Projects = () => {
       techStack: ['Python', 'Django', 'Bootstrap'],
       link: 'https://example.com/project2',
       github: 'https://github.com/example/project2',
-      image: './images/project2.png',
+      image: '../assets/project1.png',
       mobileIcon: './images/mobile-icon2.png',
     },
     {

@@ -1,7 +1,6 @@
-// src/pages/Skills.js
-
 import React, { useState, useEffect } from 'react';
 import { getSkills, addSkill } from '../api/api';
+import bgImg from '../assets/pattern.png';
 
 const Skills = () => {
   const [skills, setSkills] = useState([]);
@@ -41,7 +40,10 @@ const Skills = () => {
   };
 
   return (
-    <section className="p-8 bg-[rgb(13,15,20)] text-white">
+    <section
+      className="p-8 bg-[rgb(13,15,20)] text-white"
+      style={{ backgroundImage: `url(${bgImg})`, backgroundSize: 'cover' }}
+    >
       <div className="container mx-auto">
         <h2 className="text-2xl font-bold mb-4">Skills</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
