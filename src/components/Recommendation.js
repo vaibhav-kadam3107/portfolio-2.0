@@ -96,6 +96,7 @@ const Recommendation = () => {
           </Carousel>
         </div>
       </div>
+      
     </div>
   );
 };

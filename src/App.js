@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import TechStack from './components/TechStack';
 import Publications from './components/Publications'; //
 import Certifications from './components/Certifications';
+import ProjectSection from './components/ProjectSection';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
@@ -22,10 +23,12 @@ function App() {
         {/* <TechStack /> */}
         {/* <Projects /> */}
         {/* <LeaveInfo /> */}
+        
       </main>
+      <ProjectSection/>
       <Publications />
       <Certifications/>
-      <Skills />
+      {/* <Skills /> */}
       <Footer />
     </div>
   );
