@@ -11,7 +11,6 @@ import TechStack from './components/TechStack';
 import Publications from './components/Publications'; //
 import Certifications from './components/Certifications';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import grid from './components/grid';
 
 function App() {
   return (
@@ -26,7 +25,6 @@ function App() {
       </main>
       <Publications />
       <Certifications/>
-      <grid/>
       <Skills />
       <Footer />
     </div>
