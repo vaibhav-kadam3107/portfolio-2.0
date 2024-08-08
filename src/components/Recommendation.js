@@ -56,7 +56,7 @@ const Recommendation = () => {
   };
 
   return (
-    <div className="p-4 bg-[rgb(13,15,20)] text-white pt-10 h-[500]">
+    <div className="p-4 bg-[rgb(13,15,20)] text-white pt-5 h-[500]" id="recommend-section">
       <div className="p-6 rounded-lg shadow-lg text-white border border-gray-700 max-w-[1080px] mx-auto px-5">
       <div className="flex flex-col sm:flex-row justify-between items-center mb-4">
         <h2 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-0">Recommendations</h2>

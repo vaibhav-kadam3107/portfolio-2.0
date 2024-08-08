@@ -18,7 +18,7 @@ const publications = [
 
 const Publications = () => {
   return (
-    <section className="py-16 bg-[rgb(13,15,20)] text-white font-mullish " id="publications">
+    <section className="py-10 bg-[rgb(13,15,20)] text-white font-mullish " id="publications">
       <div
         aria-hidden="true"
         className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"

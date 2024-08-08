@@ -27,7 +27,7 @@ const certifications = [
 
 const Certifications = () => {
   return (
-    <section className="relative py-16 bg-[rgb(13,15,20)] text-white" id="certifications">
+    <section className="relative py-10 bg-[rgb(13,15,20)] text-white" id="certifications">
       <div
         aria-hidden="true"
         className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
